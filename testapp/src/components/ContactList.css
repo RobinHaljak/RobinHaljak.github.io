@@ -1,0 +1,23 @@
+.contact-list {
+    list-style-type: disc; /* You can also use 'circle' or 'square' */
+    margin-left: 20px;    /* Adjust the margin to control the spacing */
+    padding-left: 0;      /* Remove the default padding */
+    width: 500px;
+    
+    
+  }
+
+.text-contactlist    {
+    font-size: 40px;
+    background-color: var(--primary-color);
+    text-align: justify;
+    flex: 29; /* Expand to fill available space */
+    padding: 1rem; /* Add padding for spacing */
+    margin-right: 2rem; /* Increase the gap between text and image */
+    justify-content:space-between   ;
+    max-width: 700px;
+    border: 3px solid var(--secondary-color); /* Adjust color and style as needed */
+    border-radius: 0%;
+    box-shadow: 0 0px 10px var(--secondary-color);
+    display:inline;
+  }

@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    height: 46px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--header-color); /* Use your custom color variable */
+    padding: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    z-index: 1000; /* Ensure it appears above other content */
+    border: 3px solid #176a50;
+  }
+  
+  .header-left{
+    display:flex;
+    align-items: center;
+
+  }
+
+  .header-mid{
+
+    display:flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+
+    
+  }
+  .header-right{
+    display:flex;
+    align-items: center;
+    padding-right: 70px;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navigation li {
+    margin-right: 1rem;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: var(--text-color); /* Use your custom color variable */
+    font-weight: bold;
+  }

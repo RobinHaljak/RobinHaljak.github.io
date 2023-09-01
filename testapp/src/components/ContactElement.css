@@ -1,0 +1,35 @@
+.contact-element { /* You can also use 'circle' or 'square' */
+    margin: 20px;    /* Adjust the margin to control the spacing */
+    padding-left: 0px;      /* Remove the default padding */
+    width: 300px;
+    display: flex;
+    
+  }
+
+.text-contact    {
+    font-size: 40px;
+    background-color: var(--primary-color);
+    text-align: justify;
+    
+    padding: 1rem; /* Add padding for spacing */
+    justify-content:space-between   ;
+    max-width: 1000px;
+    border: 3px solid var(--secondary-color); /* Adjust color and style as needed */
+    border-radius: 0%;
+    box-shadow: 0 0px 10px var(--secondary-color);
+    display:flex;
+    
+  }
+
+.element-text{
+    padding-left: 20px;
+    width: 300px;
+    display: flex;
+    
+    
+}  
+
+.custom-hyperlink{
+  color: black;
+  text-decoration-thickness:2.32px;
+}

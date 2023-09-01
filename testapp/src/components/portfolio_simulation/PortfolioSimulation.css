@@ -1,0 +1,20 @@
+.portfolio-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 46px;
+    flex-direction: column;
+  }
+
+.portfolio-contents-topbar{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 46px;
+    flex-direction: row;
+
+}
+.portfolio-contents-main{
+  flex-direction: column;
+}
+

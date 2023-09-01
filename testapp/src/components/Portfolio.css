@@ -1,0 +1,44 @@
+.Contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 46px;
+  }
+
+.portfolio-intro-picture{
+    width: 300px; /* Image width to fill the container */
+    height: auto;
+    border-radius: 5%;
+}
+
+.portfolio-boxes{
+  display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /*     Align items horizontally at the center */
+    justify-content: center; /* Align items vertically at the center */
+    height: 300px; /* Set container height to viewport height */
+}
+
+.box-row{
+  display: flex;
+  flex-direction: row;
+}
+
+/* BoxWithBackground.css */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  background-size: cover;
+}
+
+.box:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,7 @@
+/* src/components/ProfilePicture.css */
+.header-logo-picture {
+    width: 40px; /* Image width to fill the container */
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #185944;
+}

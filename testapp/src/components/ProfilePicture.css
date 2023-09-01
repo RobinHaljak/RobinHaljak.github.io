@@ -1,0 +1,32 @@
+/* src/components/ProfilePicture.css */
+.profile-picture {
+    text-align: center;
+    margin: 2rem auto;
+    
+  }
+  
+.picture-container {
+    text-align: center;
+    width: auto; /* Container width */
+    height: auto; /* Container height */
+    overflow: hidden; /* Crop the content outside the container */
+    border-radius: 0%; /* Makes the container circular */
+    margin: 0; 
+    padding: 0;
+    /* Adjust the position of the container */
+    position: relative;
+    top: 0;
+    right: 0;
+    
+    border: 4px solid #176a50;
+    background-image: url("https://robinhaljak.dev/images/BG4.png");
+    background-size: cover;
+  }
+  
+.picture {
+    width: 300px; /* Image width to fill the container */
+    height: auto;
+    border-radius: 50%;
+    
+    border: 5px solid #176a50;
+  }

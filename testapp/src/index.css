@@ -1,0 +1,48 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  transition: background-color 0.3s;
+}
+
+/* Light mode styles */
+body.light-mode {
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  --background-color: rgb(150, 189, 178); /* Light mode background color */
+  --text-color: #000000; /* Light mode text color */
+  --primary-color: rgb(103,156,150);
+  --secondary-color: #185944;
+  --accent-color: rgb(223,100,32);
+  --dark-accent-color: rgb(166,30,42);
+  --header-color: rgb(52,137,123);
+  --footer-color: #f8f9fa;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: var(--background-color);
+  color: var(--text-color);
+
+  
+  --background-color: #121212; /* Dark mode background color */
+  --text-color: #ffffff; /* Dark mode text color */
+  --primary-color: #2f2838;
+  --secondary-color: ##03DAC5;
+  --accent-color: #FF4081;
+  --header-color: #121212;
+  --footer-color: #121212;
+}
+
+#root {
+  text-align: center;
+  padding: 0rem;
+
+
+  
+
+}
