@@ -1,0 +1,30 @@
+.bibliography {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .bibliography h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .bibliography ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bibliography li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .bibliography a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .bibliography a:hover {
+    text-decoration: underline;
+  }
+  

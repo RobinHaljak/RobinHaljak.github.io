@@ -14,6 +14,7 @@ function Portfolio() {
 
       <div>
         boxes with different projects
+        have these boxes also on the opening page agter the bottom
 
         Semantic segmentation of MRI images using CNNs
         Large scale simulation of particles (scipy)
@@ -40,14 +41,14 @@ function Portfolio() {
 
         <div className='box-row'> 
         <BoxWithBackground
-          text="Click Me!"
-          hoverText="Simulation"
+          text="LiDAR"
+          hoverText="Remote sensing for EV collision detection and avoidance"
           linkUrl="/portfolio/simulation"
           imageUrl="images/Saturn.jpg"
         />
         <BoxWithBackground
           text="Click Me!"
-          hoverText="Simulation"
+          hoverText="Some data science thingy / website / smthn"
           linkUrl="/portfolio/simulation"
           imageUrl="images/Saturn.jpg"
         />
